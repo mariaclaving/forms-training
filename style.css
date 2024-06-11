@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 120rem;
+    width: 100%;
+    background: linear-gradient(120deg,hsl(16, 100%, 66%),hsl(288, 29%, 54%));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0rem;
+    font-family: "Tinos";
+    gap: 5rem;
+
+}
+
+
+.Outsidebox {
+    height: 15rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+
+
+.insideboxTopLeft {
+    margin-top: 3rem;
+    height: 12rem;
+    width: 12rem;
+    background-color:hsl(349, 27%, 35%);
+    border: 3px solid black;
+    padding: 0.2rem;
+    display: flex;
+    flex-direction: column;   
+    border-radius: 0.5rem;
+    position: relative;
+}
+
+.insideboxTopRight {
+    margin-top: 3rem;
+    height: 12rem;
+    width: 12rem;
+    background-color:hsl(349, 27%, 35%);
+    border: 3px solid black;
+    padding: 0.2rem;
+    display: flex;
+    flex-direction: column;   
+    border-radius: 0.5rem;
+    position: relative;
+}
+
+.insideboxTopLeft:hover {
+    transform: rotate3d(1, 1, 1, 360deg);
+    transition:0.5s;
+}
+
+.insideboxTopRight:hover {
+    transform: rotate3d(1, 1, 1, 360deg);
+    transition:0.5s;
+}
+
+.DancingCat {
+    height: 4.7rem;
+    width: 4.7rem;
+    border-radius: 2.6rem;
+    
+}
+
+
+.DancingDog {
+    height: 4.7rem;
+    width: 4.7rem;
+    border-radius: 2.6rem;
+    position: absolute;
+    padding-right: 0.2rem;
+    padding-bottom: 0.2rem;
+    right: 0rem;
+    bottom: 0rem;
+    
+}
+
+.insideboxTopLeft:hover {
+    background-color: hsl(38, 100%, 85%);
+}
+.insideboxTopRight:hover {
+    background-color: hsl(38, 100%, 85%);
+}
+
+.insideboxTopLeft:hover .DancingCat {
+    transform: rotate3d(1, 1, 1, 300deg);
+    transition: 0.5s;
+}
+
+.insideboxTopRight:hover .DancingCat {
+    transform: rotate3d(1, 1, 1, 300deg);
+    transition: 0.5s;
+}
+
+.insideboxTopLeft:hover .DancingDog {
+    transform: rotate3d(1, 1, 1, 300deg);
+    transition: 0.5s;}
+
+.insideboxTopRight:hover .DancingDog {
+    transform: rotate3d(1, 1, 1, 300deg);
+    transition: 0.5s;}
+
+
+p {
+    font-size: 20px;
+    }
+
+form {
+    height: 80rem;
+    width: 50rem;
+    background-color: hsl(349, 27%, 35%);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4rem;
+    padding-top: 6rem;
+    border-radius: 2rem;
+    opacity: 0.85;
+
+
+}
+
+.textInput {
+    border-radius: 2rem;
+    height: 2.5rem;
+    width: 40rem;
+    padding-left: 1rem;
+    background-color: hsl(0, 0%, 0%);
+    color:hsl(0, 0%, 100%);
+    font-size: 1.7rem;
+    border:none;
+
+}
+
+.textInputaboutYou{
+    border-radius: 2rem;
+    height: 12rem;
+    width: 40rem;
+    padding-left: 1rem;
+    background-color: hsl(0, 0%, 0%);
+    color:hsl(0, 0%, 100%);
+    font-size: 1rem;
+    border:none;
+}
+
+.textInput:focus {
+    outline: none;
+    border:none;
+    
+}
+
+
+.Submit {
+    border-radius: 100vh;
+    height: 2.5rem;
+    width: 9rem;
+    background-color: black;
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+    font-size: 1.7rem;
+
+}
+
+.Name {
+    padding-left: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1.4rem;
+}
+
+.Email {
+    padding-left: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1.4rem;
+
+}
+
+.Password {
+    padding-left: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1.4rem;
+
+}
+
+.PhoneNumber {
+    padding-left: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1.4rem;
+
+}
+
+
+.AboutYou {
+    padding-left: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1.4rem;
+
+}
+
+.promoMaterial {
+    padding-left: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1.4rem; 
+}
+
+
